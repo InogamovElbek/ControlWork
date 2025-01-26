@@ -1,0 +1,23 @@
+###
+POST http://localhost:8080/articles/add
+Content-Type: application/json
+
+{
+  "title": "Atom Odatlar",
+  "content": "Jeyms kler"
+}
+
+###
+GET http://localhost:8080/articles/list
+
+###
+PUT http://localhost:8080/articles/update/1
+Content-Type: application/json
+
+{
+  "title": "Atom odatlar 2",
+  "content": "Elbek"
+}
+
+###
+DELETE http://localhost:8080/articles/delete/1
