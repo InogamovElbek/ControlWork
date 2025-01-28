@@ -1,5 +1,5 @@
 package com.company;
-
+@ToString
 public class Article {
     private int id;
     private String title;
@@ -28,12 +28,4 @@ public class Article {
     public void setContent(String content) {this.content = content;
     }
 
-    @Override
-    public String toString() {
-        return "Maqola{" +
-                "ID=" + id +
-                ", sarlavhasi='" + title + '\'' +
-                ", mazmuni='" + content + '\'' +
-                '}';
-    }
-}
+  
